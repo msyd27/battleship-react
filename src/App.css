@@ -1,0 +1,170 @@
+#gamesboard-container {
+  width: 500px;
+  display: flex;
+  justify-content: space-between;
+margin: auto;
+
+}
+
+
+h1 {
+  font-family: 'Arial', sans-serif; 
+  font-size: 36px; 
+  text-align: center; 
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); 
+  letter-spacing: 2px; 
+  color: #333; 
+  margin-top: 20px; 
+}
+
+
+
+.game-board {
+  width: 200px;
+  height: 200px;
+  display: flex;
+  flex-wrap: wrap;
+  border: 1px solid black;
+}
+
+.block{
+  width: 20px;
+  height: 20px;
+  border: solid 1px black;
+  box-sizing: border-box;
+}
+
+
+.option-container{
+  width: 500px;
+  height: 120px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  border: 2px solid gray;
+  justify-content: space-evenly;
+}
+
+.ships-container {
+  display: flex;
+  align-items: center; 
+  justify-content: center; 
+
+}
+.ship1 {
+  background-color: blue;
+  border-radius: 5px; 
+  box-shadow: 0 0 5px rgba(0, 0, 255, 0.5); 
+}
+
+.ship2 {
+  background-color: blue;
+  border-radius: 5px; 
+  box-shadow: 0 0 5px rgba(0, 0, 255, 0.5); 
+}
+
+.ship3 {
+  background-color: blue;
+  border-radius: 5px; 
+  box-shadow: 0 0 5px rgba(0, 0, 255, 0.5); 
+}
+
+.ship4 {
+  background-color: blue;
+  border-radius: 5px; 
+  box-shadow: 0 0 5px rgba(0, 0, 255, 0.5);
+}
+
+.ship5 {
+  background-color: blue;
+  border-radius: 5px; 
+  box-shadow: 0 0 5px rgba(0, 0, 255, 0.5); 
+}
+
+
+.ship1-preview{
+  width: 40px;
+  height: 20px;
+  margin: 3px;
+}
+
+.ship2-preview{
+  width: 60px;
+  height: 20px;
+  margin: 3px;
+}
+
+.ship3-preview{
+  width: 80px;
+  height: 20px;
+  margin: 3px;
+}
+
+.ship4-preview{
+  width: 80px;
+  height: 20px;
+  margin: 3px;
+}
+
+.ship5-preview{
+  width: 100px;
+  height: 20px;
+  margin: 3px;
+}
+
+#computer .ship1,
+#computer .ship2,
+#computer .ship3,
+#computer .ship4,
+#computer .ship5{
+  background-color: lightseagreen;
+  border-radius: 0; 
+  box-shadow: none; 
+}
+
+.boom {
+  background-color: red !important;
+}
+
+.empty {
+  background-color: darkslategrey !important;
+}
+
+#restart-button {
+  background-color: rgb(172, 28, 28);
+  border: 2px solid black;
+  margin: 0 auto;
+}
+
+#flip-button {
+  background-color: orangered;
+  border: 2px solid black;
+  margin: 0 auto;
+}
+
+#start-button {
+  background-color: green;
+  border: 2px solid black;
+  margin: 0 auto;
+}
+
+#button-container {
+  width: 100%; 
+  display: flex;
+  justify-content: center; 
+  margin-top: 20px; 
+}
+
+#restart-button,
+#flip-button,
+#start-button {
+  border: 2px solid black;
+  margin: 0 10px; 
+}
+
+
+#game-info, #in {
+  font-weight: bold;
+  color: black;
+  text-align: center;
+}
